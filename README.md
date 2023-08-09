@@ -1,6 +1,6 @@
 # js-monorepo-template
 
-Description
+Template for a JavaScript project leveraging a monorepo.
 
 ## Requirements
 

@@ -1,0 +1,17 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^7.1.4"
+  },
+  "author": "André Baldeweg <a@baldeweg.org>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abaldeweg/js-monorepo-template"
+  },
+  "license": "MIT"
+}

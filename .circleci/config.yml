@@ -1,0 +1,27 @@
+version: 2.1
+
+orbs:
+  node: circleci/node@5.1.0
+
+executors:
+  playwright:
+    docker:
+       - image: mcr.microsoft.com/playwright:v1.36.2-jammy
+  node:
+    docker:
+      - image: cimg/node:20.5
+
+jobs:
+  example-unit:
+    executor: node
+    steps:
+      - checkout
+      - node/install-packages:
+          pkg-manager: yarn
+      - run:
+          command: yarn workspace example test
+
+workflows:
+  test:
+    jobs:
+      - example-unit

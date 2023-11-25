@@ -6,7 +6,7 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "lerna": "^7.1.4"
+    "lerna": "^8.0.0"
   },
   "author": "André Baldeweg <a@baldeweg.org>",
   "repository": {

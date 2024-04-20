@@ -23,7 +23,8 @@
 				"EditorConfig.EditorConfig",
 				"DavidAnson.vscode-markdownlint",
 				"christian-kohler.npm-intellisense",
-				"christian-kohler.path-intellisense"
+				"christian-kohler.path-intellisense",
+				"donjayamanne.githistory"
 			]
 		}
 	}

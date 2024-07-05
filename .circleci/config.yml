@@ -6,7 +6,7 @@ orbs:
 executors:
   playwright:
     docker:
-       - image: mcr.microsoft.com/playwright:v1.45.0-jammy
+       - image: mcr.microsoft.com/playwright:v1.45.1-jammy
   node:
     docker:
       - image: cimg/node:22.3

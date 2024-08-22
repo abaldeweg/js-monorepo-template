@@ -9,7 +9,7 @@ executors:
        - image: mcr.microsoft.com/playwright:v1.46.1-jammy
   node:
     docker:
-      - image: cimg/node:22.6
+      - image: cimg/node:22.7
 
 jobs:
   example-unit:

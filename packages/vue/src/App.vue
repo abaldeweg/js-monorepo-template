@@ -1,8 +1,7 @@
 <script setup>
-import { useLocale, useColorScheme } from '@baldeweg/ui'
+import { useLocale } from '@baldeweg/ui'
 
 useLocale()
-useColorScheme()
 </script>
 
 <template>

@@ -1,7 +1,14 @@
 <script setup>
-import { useLocale } from '@baldeweg/ui'
+import { useHead } from '@unhead/vue'
 
-useLocale()
+useHead({
+  title: "Home",
+  titleTemplate: '%s%separator%siteName',
+  templateParams: { separator: ' - ', siteName: 'js-monorepo-template' },
+  htmlAttrs: {
+    lang: navigator.language,
+  }
+})
 </script>
 
 <template>

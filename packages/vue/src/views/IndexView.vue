@@ -1,11 +1,14 @@
+import { useHead } from '@unhead/vue'
 <script setup>
 import { useTitle } from '@baldeweg/ui'
 import { useI18n } from 'vue-i18n'
+import { useHead } from '@unhead/vue'
 
 const { t } = useI18n()
 
-useTitle({ title: t('welcome') })
-</script>
+useHead({
+  title: "Welcome",
+})</script>
 
 <template>
   <BContainer size="m">

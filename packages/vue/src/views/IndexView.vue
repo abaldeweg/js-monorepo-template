@@ -1,6 +1,5 @@
 import { useHead } from '@unhead/vue'
 <script setup>
-import { useTitle } from '@baldeweg/ui'
 import { useI18n } from 'vue-i18n'
 import { useHead } from '@unhead/vue'
 

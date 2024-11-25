@@ -2677,39 +2677,39 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@unhead/dom@1.11.11":
-  version "1.11.11"
-  resolved "https://registry.yarnpkg.com/@unhead/dom/-/dom-1.11.11.tgz#74569a280d7b9f013813aef8dee4705cb011e58a"
-  integrity sha512-4YwziCH5CmjvUzSGdZ4Klj6BqhLSTNZooA9kt47yDxj4Qw9uHqVnXwWWupYsVdIYPNsw1tR2AkHveg82y1Fn3A==
+"@unhead/dom@1.11.12":
+  version "1.11.12"
+  resolved "https://registry.yarnpkg.com/@unhead/dom/-/dom-1.11.12.tgz#2fe4bef2d0a97f7f445c47c36160f383fa164e4c"
+  integrity sha512-coPpA0xf9w3L2Dcvc3lqoSpqZV7SLNq0/RDrAixO2hGWpzpOsXGta8xba6ElogYOYJMq2lpElC450EML6XVsbg==
   dependencies:
-    "@unhead/schema" "1.11.11"
-    "@unhead/shared" "1.11.11"
+    "@unhead/schema" "1.11.12"
+    "@unhead/shared" "1.11.12"
 
-"@unhead/schema@1.11.11":
-  version "1.11.11"
-  resolved "https://registry.yarnpkg.com/@unhead/schema/-/schema-1.11.11.tgz#28c5dbe923fce0948badca998934c322f5a1c096"
-  integrity sha512-xSGsWHPBYcMV/ckQeImbrVu6ddeRnrdDCgXUKv3xIjGBY+ob/96V80lGX8FKWh8GwdFSwhblISObKlDAt5K9ZQ==
+"@unhead/schema@1.11.12":
+  version "1.11.12"
+  resolved "https://registry.yarnpkg.com/@unhead/schema/-/schema-1.11.12.tgz#9678b853572728ea122cc2bee6d592319ed66053"
+  integrity sha512-roQiJNp/5Kp9YUDpQXLkNwGNFbgB4CmO7eQBb9n1tyRSDWChJcF+Ztos0yMMwlYZ3qMI4rNXAHNSAJUO27DFWQ==
   dependencies:
     hookable "^5.5.3"
     zhead "^2.2.4"
 
-"@unhead/shared@1.11.11":
-  version "1.11.11"
-  resolved "https://registry.yarnpkg.com/@unhead/shared/-/shared-1.11.11.tgz#1ec0ec744edce31808256801ce13efd369fa6d62"
-  integrity sha512-RfdvUskPn90ipO+PmR98jKZ8Lsx1uuzscOenO5xcrMrtWGhlLWaEBIrbvFOvX5PZ/u8/VNMJChTXGDUjEtHmlg==
+"@unhead/shared@1.11.12":
+  version "1.11.12"
+  resolved "https://registry.yarnpkg.com/@unhead/shared/-/shared-1.11.12.tgz#9bfba9d3d908e8a2a830f9e6cafbfeb6ea8f8787"
+  integrity sha512-RhpUexVrYiccmPQ/ckAr6xPql/89VmiNIqLjT+eIIiu4il3FeQ/Ac7Ix1TfcduArq56Ar70TFUDjO5SlnZxIxg==
   dependencies:
-    "@unhead/schema" "1.11.11"
+    "@unhead/schema" "1.11.12"
 
-"@unhead/vue@1.11.11":
-  version "1.11.11"
-  resolved "https://registry.yarnpkg.com/@unhead/vue/-/vue-1.11.11.tgz#226ee5dda055c005ff2569fb5c2cbc91cf76acdc"
-  integrity sha512-AxsHHauZ+w0m2irwDHqkc3GdNChMLBtolk8CN3IAZM6vTwH0EbPXlFCFcIk4WwkH0opG+R2GlKTThr5H0HLm7g==
+"@unhead/vue@1.11.12":
+  version "1.11.12"
+  resolved "https://registry.yarnpkg.com/@unhead/vue/-/vue-1.11.12.tgz#268c2b6abb357d33a528d77f5085db88ac319c82"
+  integrity sha512-C5/qeaf21b353+YjkFAeM4StFuCdTa7hyx9wKDKLpD50w0fQEUp7HF//zz/1or3GnI4z1G596n8po9tRBWxCzg==
   dependencies:
-    "@unhead/schema" "1.11.11"
-    "@unhead/shared" "1.11.11"
+    "@unhead/schema" "1.11.12"
+    "@unhead/shared" "1.11.12"
     defu "^6.1.4"
     hookable "^5.5.3"
-    unhead "1.11.11"
+    unhead "1.11.12"
 
 "@vitejs/plugin-vue@5.2.0":
   version "5.2.0"
@@ -8577,14 +8577,14 @@ unbox-primitive@^1.0.2:
     has-symbols "^1.0.3"
     which-boxed-primitive "^1.0.2"
 
-unhead@1.11.11:
-  version "1.11.11"
-  resolved "https://registry.yarnpkg.com/unhead/-/unhead-1.11.11.tgz#5115d42ccb4c76fa6053b5b83831a1e14de901a1"
-  integrity sha512-98tM2R8OWJhvS6uqTewkfIrsPqFU/VwnKpU2tVZ+jPXSWgWSLmM3K2Y2v5AEM4bZjmC/XH8pLVGzbqB7xzFI/Q==
+unhead@1.11.12:
+  version "1.11.12"
+  resolved "https://registry.yarnpkg.com/unhead/-/unhead-1.11.12.tgz#dfe980a3b3082d67271fc2f477720b6e3aea0c7e"
+  integrity sha512-O/yE2KfaqJW+4lpbPXBLlvHJksiYTgkTz0UZwvDbQHxjQhzBG4GbvmXU1rDUXax9aJYfoz6xx1Lr9f1lUmaMbQ==
   dependencies:
-    "@unhead/dom" "1.11.11"
-    "@unhead/schema" "1.11.11"
-    "@unhead/shared" "1.11.11"
+    "@unhead/dom" "1.11.12"
+    "@unhead/schema" "1.11.12"
+    "@unhead/shared" "1.11.12"
     hookable "^5.5.3"
 
 unicode-canonical-property-names-ecmascript@^2.0.0:

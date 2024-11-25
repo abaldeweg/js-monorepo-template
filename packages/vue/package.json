@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@baldeweg/ui": "0.13.0",
-    "axios": "1.7.7",
+    "axios": "1.7.8",
     "js-cookie": "3.0.5",
     "vue": "3.5.6",
     "vue-i18n": "10.0.4",

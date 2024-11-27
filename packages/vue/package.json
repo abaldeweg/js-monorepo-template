@@ -28,7 +28,7 @@
     "eslint-plugin-vue": "9.31.0",
     "prettier": "3.4.1",
     "start-server-and-test": "2.0.8",
-    "vite": "5.4.11",
+    "vite": "6.0.1",
     "vite-plugin-pwa": "0.21.0",
     "vite-plugin-webfont-dl": "3.10.2",
     "vue-i18n-extract": "2.0.7"

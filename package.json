@@ -5,9 +5,7 @@
     "packages/*"
   ],
   "dependencies": {},
-  "devDependencies": {
-    "lerna": "^8.0.0"
-  },
+  "devDependencies": {},
   "author": "André Baldeweg <a@baldeweg.org>",
   "repository": {
     "type": "git",

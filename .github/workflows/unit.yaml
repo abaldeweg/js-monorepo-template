@@ -17,6 +17,6 @@ jobs:
         with:
           node-version: 22
       - name: Install dependencies
-        run: yarn install
+        run: pnpm install
       - name: Run tests
-        run: yarn workspace example test
+        run: pnpm -F example test

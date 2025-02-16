@@ -4,7 +4,7 @@
 	"features": {
 		"ghcr.io/abaldeweg/devcontainer_features/bash:2.0.0": {}
 	},
-	"postCreateCommand": "yarn install",
+	"postCreateCommand": "pnpm install",
 	"customizations": {
 		"vscode": {
 			"extensions": [
@@ -13,7 +13,8 @@
 				"DavidAnson.vscode-markdownlint",
 				"christian-kohler.npm-intellisense",
 				"mrmlnc.vscode-apache",
-				"Vue.volar"
+				"Vue.volar",
+				"redhat.vscode-yaml"
 			]
 		}
 	}

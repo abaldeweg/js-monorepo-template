@@ -8,12 +8,6 @@ importers:
 
   .: {}
 
-  packages/example:
-    devDependencies:
-      jest:
-        specifier: ^29.6.2
-        version: 29.7.0(@types/node@22.13.4)(node-notifier@8.0.2)
-
   packages/lib-ts:
     devDependencies:
       '@types/jest':
@@ -29,17 +23,11 @@ importers:
         specifier: 5.7.3
         version: 5.7.3
 
-  packages/ts:
-    dependencies:
-      typescript:
-        specifier: 5.7.3
-        version: 5.7.3
-
   packages/vue:
     dependencies:
       '@baldeweg/ui':
-        specifier: 0.13.1
-        version: 0.13.1(typescript@5.7.3)
+        specifier: 0.14.0
+        version: 0.14.0(typescript@5.7.3)
       axios:
         specifier: 1.7.9
         version: 1.7.9(debug@4.4.0)
@@ -678,8 +666,8 @@ packages:
     resolution: {integrity: sha512-Y3IR1cRnOxOCDvMmNiym7XpXQ93iGDDPHx+Zj+NM+rg0fBaShfQLkg+hKPaZCEvg5N/LeCo4+Rj/i3FuJsIQaw==}
     engines: {node: '>=6.9.0'}
 
-  '@baldeweg/ui@0.13.1':
-    resolution: {integrity: sha512-YkHpwfXHqzjU0QUdpJPR8QHszZ3H2P9ZSTgFYO24U0197oYm97XdItcZCBAgdk+44li6AEUhb9K8Vizg34fhTA==}
+  '@baldeweg/ui@0.14.0':
+    resolution: {integrity: sha512-0Yh3h+nh3YTkO5wc8ihMP4sTRPa9h1bJY5A5bDrDaYkKp+ZPw2HmcCCH/tTs0+utKCyRfwN+JDYRftrpZ52VpA==}
 
   '@bcoe/v8-coverage@0.2.3':
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
@@ -4181,7 +4169,7 @@ snapshots:
       '@babel/helper-string-parser': 7.25.9
       '@babel/helper-validator-identifier': 7.25.9
 
-  '@baldeweg/ui@0.13.1(typescript@5.7.3)':
+  '@baldeweg/ui@0.14.0(typescript@5.7.3)':
     dependencies:
       vue: 3.5.13(typescript@5.7.3)
     transitivePeerDependencies:

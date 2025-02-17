@@ -11,7 +11,7 @@
     "i18n:report": "vue-i18n-extract report --vueFiles './src/**/*.?(js|vue)' --languageFiles './locales/*.?(json|yml|yaml|js)'"
   },
   "dependencies": {
-    "@baldeweg/ui": "0.13.1",
+    "@baldeweg/ui": "0.14.0",
     "axios": "1.7.9",
     "js-cookie": "3.0.5",
     "vue": "3.5.6",

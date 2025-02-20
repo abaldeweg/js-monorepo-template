@@ -1,9 +1,9 @@
 import { createI18n } from 'vue-i18n'
 
-const modules = import.meta.glob('./*.json')
+const modules = import.meta.glob('./locales/*.json')
 
 // Function to extract the name from the file path
-const getName = (data: string): string => data.replace(/.\/(.*).json/, '$1')
+const getName = (data: string): string => data.replace(/.\/locales\/(.*).json/, '$1')
 
 // Initialize an empty messages object to store the translations
 const messages: { [key: string]: any } = {}

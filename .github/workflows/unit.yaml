@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  example-unit:
+  lib-tes-unit:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -19,4 +19,16 @@ jobs:
       - name: Install dependencies
         run: pnpm install
       - name: Run tests
-        run: pnpm -F example test
+        run: pnpm -F lib-ts test
+
+  vue-ts-unit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install dependencies
+        run: pnpm install
+      - name: Run tests
+        run: pnpm -F vue-ts test:unit

@@ -35,4 +35,4 @@ jobs:
       - name: Install dependencies
         run: pnpm install
       - name: Run tests
-        run: pnpm -F vue-ts test:unit
+        run: pnpm -F vue-ts test

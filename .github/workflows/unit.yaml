@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  lib-tes-unit:
+  lib-ts-unit:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

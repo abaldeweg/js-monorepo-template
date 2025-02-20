@@ -4,7 +4,6 @@ import { configDefaults } from 'vitest/config'
 import { VitePWA } from 'vite-plugin-pwa'
 import { ViteWebfontDownload } from 'vite-plugin-webfont-dl'
 import vue from '@vitejs/plugin-vue'
-import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
@@ -14,7 +13,6 @@ export default defineConfig(({ mode }) => {
   return {
     plugins: [
       vue(),
-      vueDevTools(),
       VitePWA({
         includeAssets: [
           'favicon.svg',

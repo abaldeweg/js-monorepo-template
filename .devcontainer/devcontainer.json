@@ -16,7 +16,6 @@
 				"Vue.volar",
 				"redhat.vscode-yaml",
 				"vitest.explorer",
-				"ms-playwright.playwright",
 				"dbaeumer.vscode-eslint",
 				"esbenp.prettier-vscode"
 			]

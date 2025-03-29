@@ -6,7 +6,7 @@ on:
       - 'v*'
 
 jobs:
-  release-ui:
+  release-lib-ts:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -14,11 +14,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22.x
-          cache: 'yarn'
+          cache: 'pnpm'
           registry-url: 'https://registry.npmjs.org'
-      - run: yarn install
-      - run: yarn workspace lib-ts build
+      - run: pnpm install
+      - run: pnpm -F lib-ts build
       - name: Publish lib-ts to NPM
-        run: yarn workspace lib-ts publish
+        run: pnpm -F lib-ts publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

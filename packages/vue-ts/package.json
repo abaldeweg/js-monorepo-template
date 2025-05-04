@@ -14,7 +14,7 @@
     "vue-router": "4.5.1"
   },
   "devDependencies": {
-    "@baldeweg/ui": "0.14.3",
+    "@baldeweg/ui": "0.15.0-alpha.19",
     "@tsconfig/node22": "22.0.1",
     "@types/jsdom": "21.1.7",
     "@types/node": "22.15.3",
@@ -30,7 +30,6 @@
     "eslint-plugin-vue": "10.1.0",
     "jiti": "2.4.2",
     "jsdom": "26.1.0",
-    "npm-run-all2": "7.0.2",
     "prettier": "3.5.3",
     "typescript": "5.8.3",
     "vite": "6.3.4",

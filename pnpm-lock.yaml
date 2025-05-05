@@ -37,8 +37,8 @@ importers:
         version: 4.5.1(vue@3.5.13(typescript@5.8.3))
     devDependencies:
       '@baldeweg/ui':
-        specifier: 0.15.0-alpha.19
-        version: 0.15.0-alpha.19(typescript@5.8.3)
+        specifier: 0.15.0-beta.0
+        version: 0.15.0-beta.0(typescript@5.8.3)
       '@tsconfig/node22':
         specifier: 22.0.1
         version: 22.0.1
@@ -727,8 +727,8 @@ packages:
     resolution: {integrity: sha512-H45s8fVLYjbhFH62dIJ3WtmJ6RSPt/3DRO0ZcT2SUiYiQyz3BLVb9ADEnLl91m74aQPS3AzzeajZHYOalWe3bg==}
     engines: {node: '>=6.9.0'}
 
-  '@baldeweg/ui@0.15.0-alpha.19':
-    resolution: {integrity: sha512-8CaqHOlfWVRbaqxMCulbBJzVPArkTx+klyFFqvXYJrc/gPoGDJ6S+blmfaLJaklKy4cKxO2MSSgPMtxZotPXDA==}
+  '@baldeweg/ui@0.15.0-beta.0':
+    resolution: {integrity: sha512-iebIktt95eNYJEbeLqPfUn99Y4/FurFvr/P/chsh8u5x1UDF+Rb/lmTNFN2Xb4v8zd5xHJgc1KB9gxi74cJRwQ==}
 
   '@bcoe/v8-coverage@0.2.3':
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
@@ -4851,7 +4851,7 @@ snapshots:
       '@babel/helper-string-parser': 7.25.9
       '@babel/helper-validator-identifier': 7.25.9
 
-  '@baldeweg/ui@0.15.0-alpha.19(typescript@5.8.3)':
+  '@baldeweg/ui@0.15.0-beta.0(typescript@5.8.3)':
     dependencies:
       vue: 3.5.13(typescript@5.8.3)
     transitivePeerDependencies:

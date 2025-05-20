@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@baldeweg/ui": "0.15.0-beta.1",
-    "@tsconfig/node22": "22.0.1",
+    "@tsconfig/node22": "22.0.2",
     "@types/jsdom": "21.1.7",
     "@types/node": "22.15.19",
     "@unhead/vue": "2.0.9",

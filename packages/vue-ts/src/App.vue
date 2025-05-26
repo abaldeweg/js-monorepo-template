@@ -1,14 +1,23 @@
 <script setup lang="ts">
-import { RouterView } from 'vue-router'
+import { RouterView, useRouter } from 'vue-router'
 import { useHead } from '@unhead/vue'
+import DefaultLayout from '@/layouts/DefaultLayout.vue'
+import { computed } from 'vue'
 
 useHead({
   title: 'Home',
 })
+
+const layouts: Record<string, any> = {
+  default: DefaultLayout,
+}
+
+const route = useRouter().currentRoute
+const layout = computed(() => layouts[(route.value.meta.layout as string) || 'default'])
 </script>
 
 <template>
-  <BApp>
+  <component :is="layout">
     <RouterView />
-  </BApp>
+  </component>
 </template>

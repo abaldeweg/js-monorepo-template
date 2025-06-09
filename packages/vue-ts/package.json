@@ -35,7 +35,7 @@
     "vite": "6.3.5",
     "vite-plugin-pwa": "1.0.0",
     "vite-plugin-webfont-dl": "3.10.5",
-    "vitest": "3.2.2",
+    "vitest": "3.2.3",
     "vue-i18n": "11.1.5",
     "vue-tsc": "2.2.10"
   },

@@ -20,7 +20,7 @@
     "@types/node": "22.15.31",
     "@unhead/vue": "2.0.10",
     "@vitejs/plugin-vue": "5.2.4",
-    "@vitest/eslint-plugin": "1.2.4",
+    "@vitest/eslint-plugin": "1.2.5",
     "@vue/eslint-config-prettier": "10.2.0",
     "@vue/eslint-config-typescript": "14.5.0",
     "@vue/test-utils": "2.4.6",

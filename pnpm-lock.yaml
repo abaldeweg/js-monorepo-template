@@ -37,8 +37,8 @@ importers:
         version: 4.5.1(vue@3.5.18(typescript@5.9.2))
     devDependencies:
       '@baldeweg/ui':
-        specifier: 0.16.1
-        version: 0.16.1(typescript@5.9.2)
+        specifier: 0.17.0
+        version: 0.17.0(typescript@5.9.2)
       '@tsconfig/node22':
         specifier: 22.0.2
         version: 22.0.2
@@ -226,11 +226,6 @@ packages:
   '@babel/helpers@7.27.6':
     resolution: {integrity: sha512-muE8Tt8M22638HU31A3CgfSUciwz1fhATfoVai05aPXGor//CdWDCbnlY1yvBPo07njuVOCNGCSp/GTt12lIug==}
     engines: {node: '>=6.9.0'}
-
-  '@babel/parser@7.27.5':
-    resolution: {integrity: sha512-OsQd175SxWkGlzbny8J3K8TnnDD0N3lrIUtB92xwyRpzaenGZhxDvxN/JgU00U3CDZNj9tPuDJ5H0WS4Nt3vKg==}
-    engines: {node: '>=6.0.0'}
-    hasBin: true
 
   '@babel/parser@7.28.0':
     resolution: {integrity: sha512-jVZGvOxOuNSsuQuLRTh13nU0AogFlw32w/MT+LV6D3sP5WdbW61E77RnkbaO2dUvmPAYrBDJXGn5gGS6tH4j8g==}
@@ -699,16 +694,12 @@ packages:
     resolution: {integrity: sha512-mGe7UK5wWyh0bKRfupsUchrQGqvDbZDbKJw+kcRGSmdHVYrv+ltd0pnpDTVpiTqnaBru9iEvA8pz8W46v0Amwg==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/types@7.27.6':
-    resolution: {integrity: sha512-ETyHEk2VHHvl9b9jZP5IHPavHYk57EhanlRRuae9XCpb/j5bDCbPPMOBfCWhnl/7EDJz0jEMCi/RhccCE8r1+Q==}
-    engines: {node: '>=6.9.0'}
-
   '@babel/types@7.28.0':
     resolution: {integrity: sha512-jYnje+JyZG5YThjHiF28oT4SIZLnYOcSBb6+SDaFIyzDVSkXQmQQYclJ2R+YxcdmK0AX6x1E5OQNtuh3jHDrUg==}
     engines: {node: '>=6.9.0'}
 
-  '@baldeweg/ui@0.16.1':
-    resolution: {integrity: sha512-FLjNsav+SN4GRdWkZQWwskxbCKn5Trg/be2h39l26OIKnIXyKzK1oICHLN3YuIJBS64dqC5U2SYgZtxawCinVw==}
+  '@baldeweg/ui@0.17.0':
+    resolution: {integrity: sha512-biL1pAFcSIBDrPwZmYNXDHP8cf/rlb2k0BEx7NIoL75TfN75hMwOnuqq5wnqovodsTdQAUyLgvLV/VJkenDAXg==}
 
   '@bcoe/v8-coverage@0.2.3':
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
@@ -4245,10 +4236,6 @@ snapshots:
       '@babel/template': 7.27.2
       '@babel/types': 7.28.0
 
-  '@babel/parser@7.27.5':
-    dependencies:
-      '@babel/types': 7.27.6
-
   '@babel/parser@7.28.0':
     dependencies:
       '@babel/types': 7.28.0
@@ -4811,17 +4798,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@babel/types@7.27.6':
-    dependencies:
-      '@babel/helper-string-parser': 7.27.1
-      '@babel/helper-validator-identifier': 7.27.1
-
   '@babel/types@7.28.0':
     dependencies:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.27.1
 
-  '@baldeweg/ui@0.16.1(typescript@5.9.2)':
+  '@baldeweg/ui@0.17.0(typescript@5.9.2)':
     dependencies:
       vue: 3.5.17(typescript@5.9.2)
     transitivePeerDependencies:
@@ -5797,7 +5779,7 @@ snapshots:
 
   '@vue/compiler-sfc@3.5.17':
     dependencies:
-      '@babel/parser': 7.27.5
+      '@babel/parser': 7.28.0
       '@vue/compiler-core': 3.5.17
       '@vue/compiler-dom': 3.5.17
       '@vue/compiler-ssr': 3.5.17

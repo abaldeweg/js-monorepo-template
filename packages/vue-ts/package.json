@@ -37,7 +37,7 @@
     "vite-plugin-webfont-dl": "3.11.1",
     "vitest": "3.2.4",
     "vue-i18n": "11.1.12",
-    "vue-tsc": "3.1.0"
+    "vue-tsc": "3.1.1"
   },
   "license": "MIT"
 }

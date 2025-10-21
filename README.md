@@ -1,3 +1,5 @@
+**This project is deprecated, use https://github.com/abaldeweg/services instead.**
+
 # js-monorepo-template
 
 Template for a JavaScript project leveraging a monorepo.
